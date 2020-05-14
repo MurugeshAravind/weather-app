@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "heroku": "heroku login",
-    "versionh": "heroku --version", 
+    "versionh": "heroku --version",
+    "create": "heroku create arav-weather-app", 
     "watch": "nodemon src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
