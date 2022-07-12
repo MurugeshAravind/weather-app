@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/app.js",
-    "watch": "nodemon src/app.js -e js,hbs",
-    "build": "npm run build"
+    "watch": "nodemon src/app.js -e js,hbs"
   },
   "keywords": [],
   "author": "",
